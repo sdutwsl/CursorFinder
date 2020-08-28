@@ -61,7 +61,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
             swap(ptnew, ptold);
         }
         }))->detach();
-        while (true);
-        std::cout << "Hello World!\n";
+        while (true) {
+            Sleep(100000);
+        };
     return 0;
 }
